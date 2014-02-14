@@ -30,7 +30,7 @@ function addProjectDetails(e) {
 		var details = $("#" + projectID+" .details");
 
 		details.html(projectInfo.summary);
-
+	});
 	console.log("User clicked on project " + idNumber);
 }
 
